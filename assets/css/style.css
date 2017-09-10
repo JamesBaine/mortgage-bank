@@ -12,4 +12,7 @@
   height: auto;
   margin-right: 1rem; }
 
+#footer-nav-list li {
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
