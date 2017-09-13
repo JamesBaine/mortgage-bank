@@ -1,11 +1,11 @@
-#banner-photo {
-  width: 100%;
-  height: 700px; }
+#main-content {
+  min-height: calc(100vh - 25px); }
 
 #banner-photo {
   background-image: url("../images/petr-novak.jpg");
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 30rem; }
 
 #bank-icon {
   width: 2.5rem;
