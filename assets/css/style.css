@@ -7,18 +7,15 @@
 #banner-photo {
   background-image: url("../images/petr-novak.jpg");
   background-size: contain;
-  background-repeat: no-repeat;
-  height: 30rem; }
+  background-repeat: no-repeat; }
 
 #bank-icon {
   width: 2.5rem;
   height: auto;
   margin-right: 1rem; }
 
-#header-media-list {
-  justify-content: right; }
-  #header-media-list li a img {
-    height: 1.5rem; }
+#header-media-list li a img {
+  height: 1.5rem; }
 
 #main-nav {
   margin-bottom: 2rem; }
