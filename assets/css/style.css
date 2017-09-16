@@ -20,13 +20,19 @@
 #main-nav {
   margin-bottom: 2rem; }
 
-#footer-nav #footer-nav-list li {
-  display: inline-block; }
-#footer-nav #footer-nav-list a {
-  height: 100%;
-  padding: 0 1rem 0 1rem;
-  border-right: 2.5px solid lightgrey; }
-#footer-nav #footer-nav-list li:last-child a {
-  border: 0; }
+#footer-nav #connect-head {
+  font-size: 1rem;
+  padding-top: .5rem;
+  display: block; }
+#footer-nav #footer-nav-list {
+  display: block; }
+  #footer-nav #footer-nav-list li {
+    display: inline-block; }
+  #footer-nav #footer-nav-list a {
+    height: 100%;
+    padding: 0 1rem 0 1rem;
+    border-right: 2.5px solid lightgrey; }
+  #footer-nav #footer-nav-list li:last-child a {
+    border: 0; }
 
 /*# sourceMappingURL=style.css.map */

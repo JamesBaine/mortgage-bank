@@ -3,8 +3,13 @@
 }
 
 #footer-nav {
-
+	#connect-head {
+		font-size: 1rem;
+		padding-top: .5rem;
+		display: block;
+	}
 	#footer-nav-list {
+		display: block;
 		li {
 			display: inline-block;
 		}
