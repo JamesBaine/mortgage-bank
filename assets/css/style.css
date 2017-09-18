@@ -9,11 +9,11 @@
   clear: both;
   height: 24rem;
   border-radius: 0px;
-  background-color: #EEEEEE; }
+  background-color: #F5F5F5; }
   #sidebar ul {
-    background-color: #EEEEEE; }
+    background-color: #F5F5F5; }
     #sidebar ul li {
-      background-color: #EEEEEE; }
+      background-color: #F5F5F5; }
       #sidebar ul li a {
         color: black; }
 
@@ -37,10 +37,10 @@
 
 #main-nav {
   margin-bottom: 2rem;
-  background-color: #EEEEEE; }
+  background-color: #F5F5F5; }
 
 #footer-nav {
-  background-color: #EEEEEE; }
+  background-color: #F5F5F5; }
   #footer-nav #connect-head {
     font-size: 1rem;
     padding-top: .5rem;
