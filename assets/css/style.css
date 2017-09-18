@@ -8,11 +8,14 @@
   float: right;
   clear: both;
   height: 24rem;
+  border-radius: 0px;
   background-color: #EEEEEE; }
   #sidebar ul {
     background-color: #EEEEEE; }
     #sidebar ul li {
       background-color: #EEEEEE; }
+      #sidebar ul li a {
+        color: black; }
 
 #banner-photo {
   height: 24rem;

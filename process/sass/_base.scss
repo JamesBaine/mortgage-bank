@@ -10,11 +10,15 @@
 	float: right;
 	clear: both;
 	height: 24rem;
+	border-radius: 0px;
 	background-color: $color-main;
 	ul {
 		background-color: $color-main;
 		li {
 			background-color: $color-main;
+			a {
+				color: black;
+			}
 		}
 	}
 }
