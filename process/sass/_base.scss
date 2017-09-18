@@ -1,7 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
 #main-content {
 	min-height: calc(100vh - 25px);
 }
 
+#sidebar {
+	float: right;
+	clear: both;
+	height: 24rem;
+	background-color: $color-main;
+	ul {
+		background-color: $color-main;
+		li {
+			background-color: $color-main;
+		}
+	}
+}
+
 #banner-photo {
-	height: 30rem;
+	height: 24rem;
+	float: left;
+	margin-right: 1em;
 }

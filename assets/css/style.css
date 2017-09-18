@@ -1,8 +1,23 @@
+* {
+  box-sizing: border-box; }
+
 #main-content {
   min-height: calc(100vh - 25px); }
 
+#sidebar {
+  float: right;
+  clear: both;
+  height: 24rem;
+  background-color: #EEEEEE; }
+  #sidebar ul {
+    background-color: #EEEEEE; }
+    #sidebar ul li {
+      background-color: #EEEEEE; }
+
 #banner-photo {
-  height: 30rem; }
+  height: 24rem;
+  float: left;
+  margin-right: 1em; }
 
 #banner-photo {
   background-image: url("../images/petr-novak.jpg");
@@ -18,21 +33,24 @@
   height: 1.5rem; }
 
 #main-nav {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  background-color: #EEEEEE; }
 
-#footer-nav #connect-head {
-  font-size: 1rem;
-  padding-top: .5rem;
-  display: block; }
-#footer-nav #footer-nav-list {
-  display: block; }
-  #footer-nav #footer-nav-list li {
-    display: inline-block; }
-  #footer-nav #footer-nav-list a {
-    height: 100%;
-    padding: 0 1rem 0 1rem;
-    border-right: 2.5px solid lightgrey; }
-  #footer-nav #footer-nav-list li:last-child a {
-    border: 0; }
+#footer-nav {
+  background-color: #EEEEEE; }
+  #footer-nav #connect-head {
+    font-size: 1rem;
+    padding-top: .5rem;
+    display: block; }
+  #footer-nav #footer-nav-list {
+    display: block; }
+    #footer-nav #footer-nav-list li {
+      display: inline-block; }
+    #footer-nav #footer-nav-list a {
+      height: 100%;
+      padding: 0 1rem 0 1rem;
+      border-right: 2.5px solid lightgrey; }
+    #footer-nav #footer-nav-list li:last-child a {
+      border: 0; }
 
 /*# sourceMappingURL=style.css.map */
