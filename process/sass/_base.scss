@@ -2,8 +2,18 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: $background-img;
+}
+
 #main-content {
 	min-height: calc(100vh - 25px);
+	background-color: white;
+	padding: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 1px solid $color-main;
+	border-radius: 5px;
 }
 
 #sidebar {
