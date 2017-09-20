@@ -6,25 +6,19 @@ body {
 
 #main-content {
   min-height: calc(100vh - 25px);
-  background-color: white;
   padding: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid #F5F5F5;
+  border: none;
   border-radius: 5px; }
 
 #sidebar {
   float: right;
   clear: both;
   height: 24rem;
-  border-radius: 0px;
-  background-color: #F5F5F5; }
-  #sidebar ul {
-    background-color: #F5F5F5; }
-    #sidebar ul li {
-      background-color: #F5F5F5; }
-      #sidebar ul li a {
-        color: black; }
+  border-radius: 5px; }
+  #sidebar ul li a {
+    color: black; }
 
 #banner-photo {
   height: 24rem;
@@ -34,7 +28,8 @@ body {
 #banner-photo {
   background-image: url("../images/petr-novak.jpg");
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 5px; }
 
 #bank-icon {
   width: 2.5rem;
@@ -45,10 +40,10 @@ body {
   height: 1.5rem; }
 
 #main-nav {
-  background-color: #F5F5F5; }
+  background-color: #EEEEEE; }
 
 #footer-nav {
-  background-color: #F5F5F5; }
+  background-color: #EEEEEE; }
   #footer-nav #connect-head {
     font-size: 1rem;
     padding-top: .5rem;

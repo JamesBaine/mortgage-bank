@@ -8,11 +8,10 @@ body {
 
 #main-content {
 	min-height: calc(100vh - 25px);
-	background-color: white;
 	padding: 2rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	border: 1px solid $color-main;
+	border: none;
 	border-radius: 5px;
 }
 
@@ -20,12 +19,9 @@ body {
 	float: right;
 	clear: both;
 	height: 24rem;
-	border-radius: 0px;
-	background-color: $color-main;
+	border-radius: 5px;
 	ul {
-		background-color: $color-main;
 		li {
-			background-color: $color-main;
 			a {
 				color: black;
 			}
